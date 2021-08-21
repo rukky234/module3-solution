@@ -1,6 +1,6 @@
 .nav-item{
-	text-align: center;
-	margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
   a:hover {
     background: #E7E7E7;}
@@ -13,10 +13,9 @@ h3{
 #menu-grid{
   background-color:grey;
 }
-.text-center{
-  margin:20px;
+.menu-item{
+   padding: 30px;
 }
-
 
 
 
@@ -25,10 +24,20 @@ h3{
 @media (min-width: 576px) { ... }
 
 /*// Medium devices (tablets, 768px and up*/
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) and (max-width:991px) {
+  .nav-item{visibility:hidden;}
+   
+  }
+
 
 /*// Large devices (desktops, 992px and up*/
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+  .nav-item{
+    visibility:hidden;
+  }
+  
+}
+
  
     
     
