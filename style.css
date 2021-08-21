@@ -1,26 +1,25 @@
-body{
-
-}
-
 .nav-item{
 	text-align: center;
 	margin-top: 10px;
 }
- a:hover {
-	background: #E7E7E7;
-
-}
+  a:hover {
+    background: #E7E7E7;}
 h2{
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+  text-align:center;
 }
 h3{
-	text-align: center;
+  text-align:center;
 }
 #menu-grid{
-	background-color: grey;
+  background-color:grey;
 }
+.text-center{
+  margin:20px;
+}
+
+
+
+
 
 /*// Small devices (landscape phones, 576px and up*/
 @media (min-width: 576px) { ... }
@@ -30,3 +29,6 @@ h3{
 
 /*// Large devices (desktops, 992px and up*/
 @media (min-width: 992px) { ... }
+ 
+    
+    
