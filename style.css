@@ -1,20 +1,26 @@
+
+
 .nav-item{
   text-align: center;
   margin-top: 10px;
 }
   a:hover {
     background: #E7E7E7;}
-h2{
+}
+.text-center{
   text-align:center;
 }
-h3{
-  text-align:center;
+.row{
+  position: relative;
+  float:left;
+  
 }
-#menu-grid{
-  background-color:grey;
-}
-.menu-item{
-   padding: 30px;
+
+.row > div > div {
+  background: grey;
+  padding: 30px;
+  margin:10px;
+  border:2px solid;
 }
 #page-title{
   margin-top:20px;
@@ -24,23 +30,39 @@ h3{
 
 
 
-/*// Small devices (landscape phones, 576px and up*/
-@media (min-width: 576px) { ... }
-
-/*// Medium devices (tablets, 768px and up*/
-@media (min-width: 768px) and (max-width:991px) {
-  .nav-item{visibility:hidden;}
-   
+/*// Extra Small devices (landscape phones, 5p*/
+@media (max-width: 767px) { 
+  .row > div > div{
+    width:80%;
+    margin:20px auto 0;
   }
+}
 
-
-/*// Large devices (desktops, 992px and up*/
-@media (min-width: 992px) { 
+/*// small devices (tablets, 768px and up*/
+@media (min-width: 768px) and (max-width: 991px)  {
   .nav-item{
     visibility:hidden;
   }
-  
+  .row > div > div{
+    width:80%;
+    margin:20px auto 0;
+  }
 }
+  
+  
+   
+ 
+/*// medium devices (desktops, 992px and up*/
+@media (min-width: 992px) and (max-width:1199px) {
+  .nav-item{
+    visibility:hidden;
+  }
+  .row > div > div{
+    width:80%;
+    margin:20px auto 0;
+  }
+}
+
 
  
     
